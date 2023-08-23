@@ -1,75 +1,202 @@
-html
-
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<title>My CV</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<meta charset="UTF-8">
+	<title>Resume/CV Design</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-
 <body>
-	<header>
-		<h1>My CV</h1>
-	</header>
-	<main>
-		<section class="intro">
-			<h2>Introduction</h2>
-			<p>Hi, my name is Mnelisi Maswanganyi and I am a web developer.</p>
-		</section>
-		<section class="experience">
-			<h2>Experience</h2>
-			<ul>
-				<li>
-					<h3>Web Developer</h3>
-					<p>2018 - Present</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-				<li>
-					<h3>Graphic Designer</h3>
-					<p>2015 - 2018</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-			</ul>
-		</section>
-		<section class="education">
-			<h2>Education</h2>
-			<ul>
-				<li>
-					<h3>Bachelor of Science in Computer Science</h3>
-					<p>2011 - 2015</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-				<li>
-					<h3>Master of Business Administration</h3>
-					<p>2015 - 2018</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</li>
-			</ul>
-		</section>
-		<section class="skills">
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>jQuery</li>
-				<li>PHP</li>
-				<li>SQL</li>
-			</ul>
-		</section>
-		<section class="contact">
-			<h2>Contact</h2>
-			<ul>
-				<li>Email: swangs.m09@gmail.com</li>
-				<li>Phone: 062-908-8442</li>
-				<li>22 Oleander Street,Alveda Park,Johannesburg south</li>
-			</ul>
-		</section>
-	</main>
+
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="1.jpeg" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">Mnelisi Maswanganyi</p>
+           <p class="regular">Student</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fas fa-map-signs"></i>
+             </div>
+             <div class="data">
+               22 Oleander street <br /> JHB
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data">
+               0629088442
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data">
+               swangs,m09@gmail.com
+             </div>
+           </li>
+          
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+             <div class="skill_progress">
+               <span style="width: 40%;"></span>
+             </div>
+             <div class="skill_per">40%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 40%;"></span>
+             </div>
+             <div class="skill_per">40%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               SQL
+             </div>
+             <div class="skill_progress">
+               <span style="width: 35%;"></span>
+             </div>
+             <div class="skill_per">35%</div>
+           </li>
+          
+           <li>
+             <div class="skill_name">
+               PYTHON
+             </div>
+             <div class="skill_progress">
+               <span style="width: 50%;"></span>
+             </div>
+             <div class="skill_per">50%</div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Social</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+               <p>Mnelisi@facebook</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <p>Mnelisi@twitter</p>
+             </div>
+           </li>
+           
+           <li>
+             <div class="icon">
+               <i class="fab fa-linkedin"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Linkedin</p>
+               <p>Mnelisi@linkedin</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">About us</p>
+         </div>
+        <p>I AM A YOUNG MAN WHO IS EAGER TO LEARN NEW SKILL AND PASSIONATE ABOUT EVERYTHING I AM INVLOVED IN.</p>
+    </div>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Education</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">2016 - 2020</div> 
+                <div class="info">
+                     <p class="semi-bold">Curtis Nkondo S.O.S</p> 
+                  <p>High School</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2021 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">University Of Jahannesburg</p> 
+                  <p>Electrical(electronics) Engineering</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2023 - Present</div>
+              <div class="info">
+                     <p class="semi-bold">Melsoft Academy</p> 
+                  <p>Web Development</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Work Experience</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">2021 - 2021</div> 
+                <div class="info">
+                     <p class="semi-bold">Sci-Bono</p> 
+                  <p>Assistant Lab Technician</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2022 - 2023</div>
+              <div class="info">
+                     <p class="semi-bold">Medicross Medical Centre</p> 
+                  <p>Data Capture</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Hobby</p>
+         </div>
+       <ul>
+         <li><i class="fas fa-book"></i></li>
+         <li><i class="fas fa-gamepad"></i></li>
+         <li><i class="fas fa-music"></i></li>
+         <li><i class="fab fa-pagelines"></i></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 </body>
-
 </html>
